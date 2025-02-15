@@ -24,7 +24,7 @@
 /* End of includes for exit_sigint() */
 
 #define COPYRIGHT \
-    "Type \"help\", \"copyright\", \"credits\" or \"license\" " \
+    "\nWelcome to utnampython.\nThis version of python programming language is a side project by Utkarsh Naman.\nIt is almost same as python except for some custom extra modules & functions that would help Utkarsh himself and other computer-science students and Machine-Learning enthusiasts.\nFor any help please Type \"help\", \"copyright\", \"credits\" or \"license\" " \
     "for more information."
 
 /* --- pymain_init() ---------------------------------------------- */
@@ -190,7 +190,7 @@ pymain_header(const PyConfig *config)
         return;
     }
 
-    fprintf(stderr, "Python %s on %s\n", Py_GetVersion(), Py_GetPlatform());
+    fprintf(stderr, "%s on %s\n", Py_GetVersion(), Py_GetPlatform());
     if (config->site_import) {
         fprintf(stderr, "%s\n", COPYRIGHT);
     }
