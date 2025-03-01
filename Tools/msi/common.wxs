@@ -66,7 +66,7 @@
         <Property Id="TARGETDIR">
             <ComponentSearch Id="PythonExe_Directory" Guid="$(var.PythonExeComponentGuid)">
                 <DirectorySearch Id="PythonExe_Directory" AssignToProperty="yes" Path=".">
-                    <FileSearch Id="PythonExe_DirectoryFile" Name="python.exe" />
+                    <FileSearch Id="PythonExe_DirectoryFile" Name="utnampython.exe" />
                 </DirectorySearch>
             </ComponentSearch>
         </Property>

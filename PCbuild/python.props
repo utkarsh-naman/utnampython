@@ -220,7 +220,7 @@
 
     <!-- Name and full path of the resulting python.exe binary -->
     <PyExeName Condition="$(DisableGil) == 'true'">python$(MajorVersionNumber).$(MinorVersionNumber)t</PyExeName>
-    <PyExeName Condition="$(PyExeName) == ''">python</PyExeName>
+    <PyExeName Condition="$(PyExeName) == ''">utnampython</PyExeName>
     <PythonExe Condition="'$(PythonExe)' == ''">$(BuildPath)$(PyExeName)$(PyDebugExt).exe</PythonExe>
     <PyWExeName Condition="$(DisableGil) == 'true'">pythonw$(MajorVersionNumber).$(MinorVersionNumber)t</PyWExeName>
     <PyWExeName Condition="$(PyWExeName) == ''">pythonw</PyWExeName>
