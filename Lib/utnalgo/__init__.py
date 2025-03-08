@@ -1,2 +1,2 @@
 from .utnalgo_c import is_prime  # Import the C function
-from .search import binary_search  # Import the Python function
+from .utnsearch import interpolation_search, binary_search, binary_search_2d, linear_search
