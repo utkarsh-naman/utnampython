@@ -190,7 +190,7 @@ pymain_header(const PyConfig *config)
         return;
     }
 
-    fprintf(stderr, "%s on %s\n", Py_GetVersion(), Py_GetPlatform());
+    fprintf(stderr, "utnampython based on %s on %s\n", Py_GetVersion(), Py_GetPlatform());
     if (config->site_import) {
         fprintf(stderr, "%s\n", COPYRIGHT);
     }
