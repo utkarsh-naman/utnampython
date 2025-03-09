@@ -1,40 +1,51 @@
-def binary_search(array, target, start=0, end=None):
+def binary_search(array, target, start=0, end=None, descending=False):
     if end is None:
         end = len(array)
     
     while start < end:
         mid = (start + end) // 2
+
         if array[mid] == target:
             return (1, mid)
-        elif array[mid] < target:
-            start = mid + 1
+
+        if descending:
+            if array[mid] < target:
+                end = mid  # Move left
+            else:
+                start = mid + 1  # Move right
         else:
-            end = mid
+            if array[mid] < target:
+                start = mid + 1  # Move right
+            else:
+                end = mid  # Move left
 
     return (0, start)
 
 
 
-def interpolation_search(arr, target):
+def interpolation_search(arr, target, descending=False):
     low, high = 0, len(arr) - 1
 
-    while low <= high and arr[low] <= target <= arr[high]:
+    while low <= high and ((arr[low] <= target <= arr[high]) if not descending else (arr[low] >= target >= arr[high])):
         if arr[low] == arr[high]:  # Prevent division by zero
             if arr[low] == target:
                 return (1, low)
             else:
-                return (0, low if target < arr[low] else low + 1)
+                return (0, low if (target < arr[low]) ^ descending else low + 1)
 
+        # Compute the estimated position
         pos = low + ((target - arr[low]) * (high - low) // (arr[high] - arr[low]))
 
+        # Ensure pos is within bounds
         if pos < low:
             return (0, low)
         elif pos > high:
             return (0, high + 1)
 
         if arr[pos] == target:
-            return (1, pos)  
-        elif arr[pos] < target:
+            return (1, pos)
+        
+        if (arr[pos] < target) ^ descending:
             low = pos + 1
         else:
             high = pos - 1

@@ -715,6 +715,15 @@ def main():
 if not sys.flags.no_site:
     main()
 
+
+
+try:
+    from utnamtte import tte  # Import from your Python module
+    builtins.tte = tte  # Inject into global built-in functions
+except ImportError:
+    print("Warning: utnamtte module not found. 'tte()' not available globally.")
+
+
 def _script():
     help = """\
     %s [--user-base] [--user-site]
