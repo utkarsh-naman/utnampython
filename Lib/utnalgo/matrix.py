@@ -61,8 +61,3 @@ def strassen(a, b):
     C_pad = strassen_recursive(A_pad, B_pad)
     return [row[:len(b[0])] for row in C_pad[:len(a)]]
 
-# Example Usage:
-A = [[1, 2, 3], [4, 5, 6]]
-B = [[7, 8], [9, 10], [11, 12]]
-result = strassen(A, B)
-print(result)
