@@ -175,26 +175,59 @@ def shell_sort(arr, reversed=False):
 
     return arr
 
+def insertion_sort_for_tim(arr, left, right, reversed):
+    for i in range(left + 1, right + 1):
+        key = arr[i]
+        j = i - 1
+        while j >= left and (arr[j] > key) ^ reversed:
+            arr[j + 1] = arr[j]
+            j -= 1
+        arr[j + 1] = key
+
+def merge_for_tim(arr, left, mid, right, reversed):
+    left_part = arr[left:mid + 1]
+    right_part = arr[mid + 1:right + 1]
+
+    i = j = 0
+    k = left
+
+    while i < len(left_part) and j < len(right_part):
+        if (left_part[i] < right_part[j]) ^ reversed:
+            arr[k] = left_part[i]
+            i += 1
+        else:
+            arr[k] = right_part[j]
+            j += 1
+        k += 1
+
+    while i < len(left_part):
+        arr[k] = left_part[i]
+        i += 1
+        k += 1
+
+    while j < len(right_part):
+        arr[k] = right_part[j]
+        j += 1
+        k += 1
 
 def tim_sort(arr, reversed=False):
     n = len(arr)
     RUN = 32  
 
     for i in range(0, n, RUN):
-        insertion_sort(arr[i:min(i + RUN, n)], reversed)
+        insertion_sort_for_tim(arr, i, min(i + RUN - 1, n - 1), reversed)
 
     size = RUN
     while size < n:
         for left in range(0, n, 2 * size):
-            mid = min(left + size - 1, n - 1)
-            right = min(left + 2 * size - 1, n - 1)
-
+            mid = min(n - 1, left + size - 1)
+            right = min((left + 2 * size - 1), (n - 1))
             if mid < right:
-                arr[left:right + 1] = merge(arr[left:mid + 1], arr[mid + 1:right + 1], reversed)
-
-        size *= 2  
+                merge_for_tim(arr, left, mid, right, reversed)
+        size *= 2
 
     return arr
+
 
 def cocktail_shaker_sort(arr, reversed=False):
     n = len(arr)
