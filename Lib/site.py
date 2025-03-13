@@ -723,6 +723,12 @@ try:
 except ImportError:
     print("Warning: utnamtte module not found. 'tte()' not available globally.")
 
+try:
+    from out_writer import write_out
+    builtins.write_out = write_out
+except ImportError:
+    print("Warning: oute_writer module not found. 'write_out()' not available globally.")
+
 
 def _script():
     help = """\

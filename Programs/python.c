@@ -12,17 +12,17 @@ wmain(int argc, wchar_t **argv)
         wcstombs(arg1, argv[1], sizeof(arg1));
         if (strcmp(arg1, "open_up") == 0) {
             printf("Welcome to utnampython! Custom features are enabled.\n"
-                   "built in function:\n\ttte()\n"
+                   "built in function:\n\ttte()\n\twrite_out()\n"
                    "added libraries:\n"
                    "\tutnalgo\n"
-                   "\tutnmath\n"           
+                   "\tutnmath\n\n"           
             );
             return 0;
         }
         else if (strcmp(arg1, "credits") == 0) {
             printf("utnampython - A custom cpython fork side\/fun project by \"Utkarsh Naman\".\n");
             printf("Hi. I'm Utkarsh Naman (short: UtNam). This side project of mine is a result of an idea that hit me in late Feb 2025 and the porject was finished before mid March 2025 \n");
-            printf("I always have an itch to do something about what bugs me. \n");
+            printf("I always have an itch to do something about what bugs me. \n\n");
             return 0;
         }
         else if (strcmp(arg1, "poet") == 0) {
@@ -30,7 +30,7 @@ wmain(int argc, wchar_t **argv)
             srand(time(0));
 
             // Generate a random number between 1 and 5 (inclusive)
-            int random_num = 1 + rand() % 10;
+            int random_num = 1 + rand() % 11;
             if (random_num == 1) {
                 printf("I would learn to sketch, only to see,\n");
                 printf("your beauty captured, in every line by me.\n");
@@ -55,7 +55,7 @@ wmain(int argc, wchar_t **argv)
                 printf("So, let me be the hand that paints yours grace,\n");
                 printf("Or the poet who immortalizes your face.\n");
                 printf("For you, my love, I'd conquer every art,\n");
-                printf("Even if it only brings me an inch closer to your heart.\n");
+                printf("Even if it only brings me an inch closer to your heart.\n\n");
 
                 return 0;
             }
@@ -66,17 +66,17 @@ wmain(int argc, wchar_t **argv)
                        "The more it stays, the more it slays\nmakes me stand in mid fog and choose my way.\n\n"
                        "I don\'t care if he is wrong or right\nmaybe cuz I want him in my sight\nOh what strings of burden have been tied\n"
                        "Cutting or holding them, either gonna cost me my pride.\nI see no me in all that\'s left\nWas is it a mockery or a theft.\n"
-                       "Ruin my feelings, ruin my heart.\nI\'m helpless since he already played his cards.\n");
+                       "Ruin my feelings, ruin my heart.\nI\'m helpless since he already played his cards.\n\n");
                 return 0;
             }
 
             else if (random_num == 3) {
-                printf("After all\nyou too turned out to be same as others.\nMore like worn out threads of my sweater.\nLeaving you would set me out of the cage,\nI\'d be a free bird but with no feathers.\n");
+                printf("After all\nyou too turned out to be same as others.\nMore like worn out threads of my sweater.\nLeaving you would set me out of the cage,\nI\'d be a free bird but with no feathers.\n\n");
                 return 0;
             }
 
             else if (random_num == 4) {
-                printf("I wish you could stay,\nI wish I could say.\nOnly if could express my feelings,\nI wouldn't have required these healings.\n");
+                printf("I wish you could stay,\nI wish I could say.\nOnly if could express my feelings,\nI wouldn't have required these healings.\n\n");
                 return 0;
             }
             
@@ -112,7 +112,7 @@ wmain(int argc, wchar_t **argv)
                        "You taught me a new way to live,\n"
                        "To love and keep my heart off my sleeve.\n"
                        "To find a world that had existed far beyond,\n"
-                       "Of you, me, and Heather, all along.\n\n\- Debadatta\n");
+                       "Of you, me, and Heather, all along.\n\n\- Debadatta\n\n");
                 return 0;
             }
 
@@ -130,7 +130,7 @@ wmain(int argc, wchar_t **argv)
                     "Yet in this calm, I find my peace,\n"
                     "A fleeting moment, a sweet release.\n"
                     "The world may run, but I\'ll just stay,\n"
-                    "Embracing life, my quiet way.\n\n\- Debadatta\n");
+                    "Embracing life, my quiet way.\n\n\- Debadatta\n\n");
                 return 0;
             }
 
@@ -139,7 +139,7 @@ wmain(int argc, wchar_t **argv)
                        "I caged the fireflies in a jar\n"
                        "To guide u when the night was far\n"
                        "In my cruel hands, their freedom died\n"
-                       "Not me, but u, reflected inside\n\n\- Debadatta\n");
+                       "Not me, but u, reflected inside\n\n\- Debadatta\n\n");
                 return 0;
             }
 
@@ -175,7 +175,7 @@ wmain(int argc, wchar_t **argv)
                        "investing energy\n"
                        "and emotions alike\n"
                        "if endings are terribly\n"
-                       "no need to write\n\n\- Debadatta\n");
+                       "no need to write\n\n\- Debadatta\n\n");
                 return 0;
             }
 
@@ -227,7 +227,7 @@ wmain(int argc, wchar_t **argv)
                        "I rest on nameless milestone\n"
                        "long for long till my ashes get blown.\n"
                        "So the wind could tell him where I laid\n"
-                       "till my skin wrinkled and hair grayed\n\n\- Debadatta\n");
+                       "till my skin wrinkled and hair grayed\n\n\- Debadatta\n\n");
                 return 0;
             }
 
@@ -239,7 +239,19 @@ wmain(int argc, wchar_t **argv)
                     "Mera naam le wo ek baar toh hum  aabaad ho jayenge,\n"
                     "Agar mili nazrein ek baar, hum barbaad ho jayenge.\n"
                     "Khoobsurat itni ki Duniyaa usey hoor maanti hai\n"
-                    "Mai bhi hoon duniya mein kya wo ye jaanti hai.\n\n\- rayonium\n");
+                    "Mai bhi hoon duniya mein kya wo ye jaanti hai.\n\n\- rayonium\n\n");
+                return 0;
+            }
+
+            else if (random_num == 11) {
+                printf("A friend from childhood is a bond that stays near,\n"
+                       "A friend from the heart brings joy and cheer.\n"
+                       "A friend in sorrow is a comforting light,\n"
+                       "Guiding us through the darkest night.\n\n"
+                       "No matter the time, no matter the way,\n"
+                       "A true friend is a treasure that never fades away.\n"
+                       "\- Aria\n\n"
+                );
                 return 0;
             }
             return 0;
@@ -254,16 +266,16 @@ main(int argc, char **argv)
     if (argc > 1) {
         if (strcmp(argv[1], "open_up") == 0) {
             printf("Welcome to utnampython! Custom features are enabled.\n"
-                   "built in function:\n\ttte()\n"
+                   "built in function:\n\ttte()\n\twrite_out()\n"
                    "added libraries:\n"
                    "\tutnalgo\n"
-                   "\tutnmath\n");
+                   "\tutnmath\n\n");
             return 0;
         }
         else if (strcmp(argv[1], "credits") == 0) {
             printf("utnampython - A custom cpython fork side\/fun project by \"Utkarsh Naman.\"\n");
             printf("Hi. I'm Utkarsh Naman (short: UtNam). This side project of mine is a result of idea that hit me in late Feb 2025 and was finished before mid March 2025 \n");
-            printf("I always have an itch to do something about what bugs me. \n");
+            printf("I always have an itch to do something about what bugs me. \n\n");
             return 0;
         }
         else if (strcmp(argv[1], "poet") == 0) {
@@ -271,7 +283,7 @@ main(int argc, char **argv)
             srand(time(0));
 
             // Generate a random number between 1 and 5 (inclusive)
-            int random_num = 1 + rand() % 10;
+            int random_num = 1 + rand() % 11;
             if (random_num == 1) {
                 printf("I would learn to sketch, only to see,\n");
                 printf("your beauty captured, in every line by me.\n");
@@ -296,7 +308,7 @@ main(int argc, char **argv)
                 printf("So, let me be the hand that paints yours grace,\n");
                 printf("Or the poet who immortalizes your face.\n");
                 printf("For you, my love, I'd conquer every art,\n");
-                printf("Even if it only brings me an inch closer to your heart.\n");
+                printf("Even if it only brings me an inch closer to your heart.\n\n");
 
                 return 0;
             }
@@ -307,17 +319,17 @@ main(int argc, char **argv)
                        "The more it stays, the more it slays\nmakes me stand in mid fog and choose my way.\n\n"
                        "I don\'t care if he is wrong or right\nmaybe cuz I want him in my sight\nOh what strings of burden have been tied\n"
                        "Cutting or holding them, either gonna cost me my pride.\nI see no me in all that\'s left\nWas is it a mockery or a theft.\n"
-                       "Ruin my feelings, ruin my heart.\nI\'m helpless since he already played his cards.\n");
+                       "Ruin my feelings, ruin my heart.\nI\'m helpless since he already played his cards.\n\n");
                 return 0;
             }
 
             else if (random_num == 3) {
-                printf("After all\nyou too turned out to be same as others.\nMore like worn out threads of my sweater.\nLeaving you would set me out of the cage,\nI\'d be a free bird but with no feathers.\n");
+                printf("After all\nyou too turned out to be same as others.\nMore like worn out threads of my sweater.\nLeaving you would set me out of the cage,\nI\'d be a free bird but with no feathers.\n\n");
                 return 0;
             }
 
             else if (random_num == 4) {
-                printf("I wish you could stay,\nI wish I could say.\nOnly if could express my feelings,\nI wouldn't have required these healings.\n");
+                printf("I wish you could stay,\nI wish I could say.\nOnly if could express my feelings,\nI wouldn't have required these healings.\n\n");
                 return 0;
             }
             
@@ -353,7 +365,7 @@ main(int argc, char **argv)
                     "You taught me a new way to live,\n"
                     "To love and keep my heart off my sleeve.\n"
                     "To find a world that had existed far beyond,\n"
-                    "Of you, me, and Heather, all along.\n\- Debadatta\n");
+                    "Of you, me, and Heather, all along.\n\- Debadatta\n\n");
                 return 0;
             }
 
@@ -371,7 +383,7 @@ main(int argc, char **argv)
                     "Yet in this calm, I find my peace,\n"
                     "A fleeting moment, a sweet release.\n"
                     "The world may run, but I\'ll just stay,\n"
-                    "Embracing life, my quiet way.\n\n\- Debadatta\n");
+                    "Embracing life, my quiet way.\n\n\- Debadatta\n\n");
                 return 0;
             }
 
@@ -380,7 +392,7 @@ main(int argc, char **argv)
                     "I caged the fireflies in a jar\n"
                     "To guide u when the night was far\n"
                     "In my cruel hands, their freedom died\n"
-                    "Not me, but u, reflected inside\n\n\- Debadatta\n");
+                    "Not me, but u, reflected inside\n\n\- Debadatta\n\n");
                 return 0;
             }
 
@@ -416,7 +428,7 @@ main(int argc, char **argv)
                     "investing energy\n"
                     "and emotions alike\n"
                     "if endings are terribly\n"
-                    "no need to write\n\n\- Debadatta\n");
+                    "no need to write\n\n\- Debadatta\n\n");
                 return 0;
             }
 
@@ -468,7 +480,7 @@ main(int argc, char **argv)
                     "I rest on nameless milestone\n"
                     "long for long till my ashes get blown.\n"
                     "So the wind could tell him where I laid\n"
-                    "till my skin wrinkled and hair grayed\n\n\- Debadatta\n");
+                    "till my skin wrinkled and hair grayed\n\n\- Debadatta\n\n");
                 return 0;
             }
 
@@ -480,7 +492,19 @@ main(int argc, char **argv)
                     "Mera naam le wo ek baar toh hum  aabaad ho jayenge,\n"
                     "Agar mili nazrein ek baar, hum barbaad ho jayenge.\n"
                     "Khoobsurat itni ki Duniyaa usey hoor maanti hai\n"
-                    "Mai bhi hoon duniya mein kya wo ye jaanti hai.\n\n\- rayonium\n");
+                    "Mai bhi hoon duniya mein kya wo ye jaanti hai.\n\n\- rayonium\n\n");
+                return 0;
+            }
+
+            else if (random_num == 11) {
+                printf("A friend from childhood is a bond that stays near,\n"
+                        "A friend from the heart brings joy and cheer.\n"
+                        "A friend in sorrow is a comforting light,\n"
+                        "Guiding us through the darkest night.\n\n"
+                        "No matter the time, no matter the way,\n"
+                        "A true friend is a treasure that never fades away.\n"
+                        "\- Aria\n\n"
+                );
                 return 0;
             }
             return 0;
