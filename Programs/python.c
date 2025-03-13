@@ -11,12 +11,17 @@ wmain(int argc, wchar_t **argv)
     if (argc > 1) {
         wcstombs(arg1, argv[1], sizeof(arg1));
         if (strcmp(arg1, "open_up") == 0) {
-            printf("Welcome to utnampython! Custom features are enabled.\n");
+            printf("Welcome to utnampython! Custom features are enabled.\n"
+                   "built in function:\n\ttte()\n"
+                   "added libraries:\n"
+                   "\tutnalgo\n"
+                   "\tutnmath\n"           
+            );
             return 0;
         }
         else if (strcmp(arg1, "credits") == 0) {
-            printf("utnampython - A custom cpython fork side\/fun project by \"Utkarsh Naman.\"\n");
-            printf("Hi. I'm Utkarsh Naman (short: UtNam). This side project of mine is a result of idea that hit me in late Feb 2025 and was finished before mid March 2025 \n");
+            printf("utnampython - A custom cpython fork side\/fun project by \"Utkarsh Naman\".\n");
+            printf("Hi. I'm Utkarsh Naman (short: UtNam). This side project of mine is a result of an idea that hit me in late Feb 2025 and the porject was finished before mid March 2025 \n");
             printf("I always have an itch to do something about what bugs me. \n");
             return 0;
         }
@@ -66,7 +71,7 @@ wmain(int argc, wchar_t **argv)
             }
 
             else if (random_num == 3) {
-                printf("After all\n you too turned out to be the same as others.\n");
+                printf("After all\nyou too turned out to be same as others.\nMore like worn out threads of my sweater.\nLeaving you would set me out of the cage,\nI\'d be a free bird but with no feathers.\n");
                 return 0;
             }
 
@@ -248,7 +253,11 @@ main(int argc, char **argv)
 {
     if (argc > 1) {
         if (strcmp(argv[1], "open_up") == 0) {
-            printf("Welcome to utnampython! Custom features are enabled.\n");
+            printf("Welcome to utnampython! Custom features are enabled.\n"
+                   "built in function:\n\ttte()\n"
+                   "added libraries:\n"
+                   "\tutnalgo\n"
+                   "\tutnmath\n");
             return 0;
         }
         else if (strcmp(argv[1], "credits") == 0) {
@@ -303,7 +312,7 @@ main(int argc, char **argv)
             }
 
             else if (random_num == 3) {
-                printf("After all\nyou too turned out to be the same as others.\n");
+                printf("After all\nyou too turned out to be same as others.\nMore like worn out threads of my sweater.\nLeaving you would set me out of the cage,\nI\'d be a free bird but with no feathers.\n");
                 return 0;
             }
 
