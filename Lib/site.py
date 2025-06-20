@@ -625,6 +625,20 @@ def main():
 if not sys.flags.no_site:
     main()
 
+
+try:
+    from utnamtte import tte  # Import from your Python module
+    builtins.tte = tte  # Inject into global built-in functions
+except ImportError:
+    print("Warning: utnamtte module not found. 'tte()' not available globally.")
+
+try:
+    from out_writer import write_out
+    builtins.write_out = write_out
+except ImportError:
+    print("Warning: oute_writer module not found. 'write_out()' not available globally.")
+
+
 def _script():
     help = """\
     %s [--user-base] [--user-site]
