@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Programs"
+    "\\Lib",
+    "\\Lib\\utnalgo"
   ],
-  "SelectedNode": "\\Programs\\python.c",
+  "SelectedNode": "\\Lib\\utnamtte.py",
   "PreviewInSolutionExplorer": false
 }
