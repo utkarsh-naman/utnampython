@@ -1,9 +1,10 @@
 {
   "ExpandedNodes": [
     "",
+    "\\Lib",
     "\\Lib\\utnalgo",
     "\\Modules"
   ],
-  "SelectedNode": "\\Modules",
+  "SelectedNode": "\\Lib\\utnalgo\\Graph",
   "PreviewInSolutionExplorer": false
 }
