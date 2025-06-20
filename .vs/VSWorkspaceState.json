@@ -1,8 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\PCbuild"
+    "\\Programs"
   ],
-  "SelectedNode": "\\PCbuild\\pyproject.props",
+  "SelectedNode": "\\Programs\\python.c",
   "PreviewInSolutionExplorer": false
 }

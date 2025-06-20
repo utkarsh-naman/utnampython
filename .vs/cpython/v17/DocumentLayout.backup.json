@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\UTKARSH NAMAN\\utnam\\utnampython\\cpython\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\UTKARSH NAMAN\\utnam\\utnampython\\cpython\\PCbuild\\pyproject.props||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PCbuild\\pyproject.props||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\UTKARSH NAMAN\\utnam\\utnampython\\cpython\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\UTKARSH NAMAN\\utnam\\utnampython\\cpython\\PCbuild\\python.vcxproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PCbuild\\python.vcxproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\UTKARSH NAMAN\\utnam\\utnampython\\cpython\\Programs\\python.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Programs\\python.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,27 +27,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "pyproject.props",
-              "DocumentMoniker": "C:\\Users\\UTKARSH NAMAN\\utnam\\utnampython\\cpython\\PCbuild\\pyproject.props",
-              "RelativeDocumentMoniker": "PCbuild\\pyproject.props",
-              "ToolTip": "C:\\Users\\UTKARSH NAMAN\\utnam\\utnampython\\cpython\\PCbuild\\pyproject.props",
-              "RelativeToolTip": "PCbuild\\pyproject.props",
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\UTKARSH NAMAN\\utnam\\utnampython\\cpython\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\UTKARSH NAMAN\\utnam\\utnampython\\cpython\\.gitignore",
+              "RelativeToolTip": ".gitignore",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-06-20T10:37:46.567Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-20T11:35:47.818Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "python.vcxproj",
-              "DocumentMoniker": "C:\\Users\\UTKARSH NAMAN\\utnam\\utnampython\\cpython\\PCbuild\\python.vcxproj",
-              "RelativeDocumentMoniker": "PCbuild\\python.vcxproj",
-              "ToolTip": "C:\\Users\\UTKARSH NAMAN\\utnam\\utnampython\\cpython\\PCbuild\\python.vcxproj",
-              "RelativeToolTip": "PCbuild\\python.vcxproj",
-              "ViewState": "AgIAADwAAAAAAAAAAAAhwEwAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000698|",
-              "WhenOpened": "2025-06-20T10:36:54.473Z",
+              "Title": "python.c",
+              "DocumentMoniker": "C:\\Users\\UTKARSH NAMAN\\utnam\\utnampython\\cpython\\Programs\\python.c",
+              "RelativeDocumentMoniker": "Programs\\python.c",
+              "ToolTip": "C:\\Users\\UTKARSH NAMAN\\utnam\\utnampython\\cpython\\Programs\\python.c",
+              "RelativeToolTip": "Programs\\python.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-06-20T11:24:56.68Z",
               "EditorCaption": ""
             },
             {
