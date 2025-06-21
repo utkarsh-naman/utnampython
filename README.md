@@ -10,7 +10,7 @@ All the copyright is owned by the official python and this is just a variant of 
 
 I have installers for utnampython which can be found [here](https://drive.google.com/drive/folders/1qS09KcC88XSNJdAcVEQfB4pTZX_6b9XQ?usp=sharing)
 ### Windows
-installer for 64 bit architecture is [here](https://drive.google.com/drive/folders/1uzGMSMbgpVJE2tHNc0Xbj4LI8z-FxsgF?usp=drive_link)
+installer for 64 bit architecture is [here](https://drive.google.com/drive/folders/1uzGMSMbgpVJE2tHNc0Xbj4LI8z-FxsgF?usp=drive_link)\
 installer for 32 bit architecture is [here](https://drive.google.com/drive/folders/1cBtAahgBm5sAM3RF0_GzjQCExs_gBFtf?usp=sharing)
 
 ---
