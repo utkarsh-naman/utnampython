@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\UTKARSH NAMAN\\utnam\\utnampython\\cpython\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\UTKARSH NAMAN\\utnam\\utnampython\\cpython\\Modules\\utnalgo_cmodule.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Modules\\utnalgo_cmodule.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\UTKARSH NAMAN\\utnam\\utnampython\\cpython\\Programs\\python.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Programs\\python.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,14 +23,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "utnalgo_cmodule.c",
-              "DocumentMoniker": "C:\\Users\\UTKARSH NAMAN\\utnam\\utnampython\\cpython\\Modules\\utnalgo_cmodule.c",
-              "RelativeDocumentMoniker": "Modules\\utnalgo_cmodule.c",
-              "ToolTip": "C:\\Users\\UTKARSH NAMAN\\utnam\\utnampython\\cpython\\Modules\\utnalgo_cmodule.c",
-              "RelativeToolTip": "Modules\\utnalgo_cmodule.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAjAAAAAAAAAA==",
+              "Title": "python.c",
+              "DocumentMoniker": "C:\\Users\\UTKARSH NAMAN\\utnam\\utnampython\\cpython\\Programs\\python.c",
+              "RelativeDocumentMoniker": "Programs\\python.c",
+              "ToolTip": "C:\\Users\\UTKARSH NAMAN\\utnam\\utnampython\\cpython\\Programs\\python.c",
+              "RelativeToolTip": "Programs\\python.c",
+              "ViewState": "AgIAAB4BAAAAAAAAAAAAABgAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-06-20T13:54:08.521Z",
+              "WhenOpened": "2025-06-21T13:39:36.995Z",
               "EditorCaption": ""
             },
             {

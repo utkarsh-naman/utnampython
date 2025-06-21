@@ -11,12 +11,27 @@ wmain(int argc, wchar_t** argv)
     char arg1[100] = { 0 };
     if (argc > 1) {
         wcstombs(arg1, argv[1], sizeof(arg1));
-        if (strcmp(arg1, "info") == 0) {
+        if (strcmp(arg1, "donate") == 0) {
+            printf("\tpatreon: https://www.patreon.com/c/utnam\n");
+            printf("\tPaypal: https://www.paypal.me/utkarshnaman2301\n");
+            printf("\tbuymeacoffee: https://buymeacoffee.com/utkarshnaman\n");
+            printf("\tupi: utkarshnaman1@oksbi\n");
+            return 0;
+        }
+        else if (strcmp(arg1, "info") == 0) {
+            printf("Support me:\n");
+            printf("\t\n");
+            printf("\tpatreon: https://www.patreon.com/c/utnam\n");
+            printf("\tPaypal: https://www.paypal.me/utkarshnaman2301\n");
+            printf("\tbuymeacoffee: https://buymeacoffee.com/utkarshnaman\n");
+            printf("\tupi: utkarshnaman1@oksbi\n");
+            printf("\n\n");
             printf("github: https://github.com/utkarsh-naman/\n");
             printf("repo: https://github.com/utkarsh-naman/utnampython\n");
             printf("developer mail: mailto:truly.away@gmail.com\n");
             printf("linkedin: https://www.linkedin.com/in/utkarsh-naman\n");
             printf("portfolio: http://utkarshnaman.me/portfolio/\n");
+            printf("youtube: https://www.youtube.com/@trulyutnam");
             return 0;
         }
         else if (strcmp(arg1, "credits") == 0) {
@@ -283,12 +298,32 @@ int
 main(int argc, char** argv)
 {
     if (argc > 1) {
-        if (strcmp(argv[1], "info") == 0) {
+        if (strcmp(arg1, "donate") == 0) {
+            printf("\tpatreon: https://www.patreon.com/c/utnam\n");
+            printf("\tPaypal: https://www.paypal.me/utkarshnaman2301\n");
+            printf("\tbuymeacoffee: https://buymeacoffee.com/utkarshnaman\n");
+            printf("\tupi: utkarshnaman1@oksbi\n");
+            return 0;
+        }
+        else if (strcmp(argv[1], "info") == 0) {
+            printf("Support me:\n");
+            printf("\n");
+            printf("\tpatreon: https://www.patreon.com/c/utnam\n");
+            printf("\tPaypal: https://www.paypal.me/utkarshnaman2301\n");
+            printf("\tbuymeacoffee: https://buymeacoffee.com/utkarshnaman\n");
+            printf("\tupi: utkarshnaman1@oksbi\n");
+            printf("\n\n");
             printf("github: https://github.com/utkarsh-naman/\n");
             printf("repo: https://github.com/utkarsh-naman/utnampython\n");
             printf("developer mail: mailto:truly.away@gmail.com\n");
             printf("linkedin: https://www.linkedin.com/in/utkarsh-naman\n");
             printf("portfolio: http://utkarshnaman.me/portfolio/\n");
+            printf("github: https://github.com/utkarsh-naman/\n");
+            printf("repo: https://github.com/utkarsh-naman/utnampython\n");
+            printf("developer mail: mailto:truly.away@gmail.com\n");
+            printf("linkedin: https://www.linkedin.com/in/utkarsh-naman\n");
+            printf("portfolio: http://utkarshnaman.me/portfolio/\n");
+            printf("youtube: https://www.youtube.com/@trulyutnam");
             return 0;
         }
         else if (strcmp(argv[1], "credits") == 0) {
