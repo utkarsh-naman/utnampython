@@ -2,6 +2,8 @@ This is utnampython built on cpython version 3.11.9
 =============================
 Majority of the code belongs to the original cpython which can be found at https://github.com/python/cpython
 
+---
+
 ## INSTALLATION:
 
 I have installers for utnampython which can be found [here](https://drive.google.com/drive/folders/1qS09KcC88XSNJdAcVEQfB4pTZX_6b9XQ?usp=sharing)
@@ -9,6 +11,7 @@ I have installers for utnampython which can be found [here](https://drive.google
 installer for 64 bit architecture is [here](https://drive.google.com/drive/folders/1uzGMSMbgpVJE2tHNc0Xbj4LI8z-FxsgF?usp=drive_link)
 installer for 32 bit architecture is [here](https://drive.google.com/drive/folders/1cBtAahgBm5sAM3RF0_GzjQCExs_gBFtf?usp=sharing)
 
+---
 
 ## Build:
 
@@ -24,6 +27,8 @@ PCbuild\build.bat -p x64 -c Release
 PCbuild\build.bat -p win32 -c Release
 ```
 
+---
+
 ## enable pip
 ```
 utnampython -m ensurepip
@@ -32,6 +37,8 @@ utnampython -m ensurepip
 ```
 utnampython -m pip install package_name
 ```
+
+---
 
 ## Built-In Functions
 ### 1. tte(string_var)
