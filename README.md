@@ -56,7 +56,7 @@ write_out()
 ```
 
 ## Built-in Lib
-### utnalgo
+### 1 utnalgo
 #### utnalgo/Graph
 ```
 from utnalgo.Graph.traversal import bfs, dfs, dijkstra, a_star, bellman_ford, prims, kruskal
@@ -74,3 +74,9 @@ Each takes parameters array, reversed=false
 form utnalgo.Sort.sort_algos import selection_sort(), bubble_sort(), insertion_sort(), tim_sort(), quick_sort(), merge_sort(), counting_sort(), radix_sort(), bucket_sort(), heap_sort(), shell_sort(), cocktail_shaker_sort(), comb_sort(), gnome_sort(), cycle_sort(), pigeonhole_sort()
 ```
 
+#### utnalgo/matrix
+strassen
+takes two matrices as input and returns their product
+```
+ from utnalgo.matrix import strassen
+```
