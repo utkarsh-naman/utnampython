@@ -12,6 +12,8 @@ wmain(int argc, wchar_t** argv)
     if (argc > 1) {
         wcstombs(arg1, argv[1], sizeof(arg1));
         if (strcmp(arg1, "donate") == 0) {
+            printf("Support me:\n");
+            printf("\n");
             printf("\tpatreon: https://www.patreon.com/c/utnam\n");
             printf("\tPaypal: https://www.paypal.me/utkarshnaman2301\n");
             printf("\tbuymeacoffee: https://buymeacoffee.com/utkarshnaman\n");
@@ -299,6 +301,8 @@ main(int argc, char** argv)
 {
     if (argc > 1) {
         if (strcmp(arg1, "donate") == 0) {
+            printf("Support me:\n");
+            printf("\n");
             printf("\tpatreon: https://www.patreon.com/c/utnam\n");
             printf("\tPaypal: https://www.paypal.me/utkarshnaman2301\n");
             printf("\tbuymeacoffee: https://buymeacoffee.com/utkarshnaman\n");
