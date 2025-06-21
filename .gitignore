@@ -1,6 +1,5 @@
 .vs/
 # Ignore VS build artifacts
-PCbuild/amd64/
 PCbuild/obj/
 *.pdb
 *.dll
