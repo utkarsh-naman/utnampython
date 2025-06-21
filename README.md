@@ -82,7 +82,8 @@ takes two matrices as input and returns their product
 ```
 
 #### utnalgo/utnsearch
-searching functions to search through an array of numbers
+searching functions to search through an array of numbers. \
+parameters: array, tagret
 ```
  from utnalgo.utnsearch import binary_search, binary_search_2d, linear_search, interpolation_search
 ```
