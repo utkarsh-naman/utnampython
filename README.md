@@ -70,6 +70,8 @@ for i in range(1, 11, 1):
 write_out()
 ```
 
+---
+
 ## Built-in Lib
 ### 1 utnalgo
 #### utnalgo/Graph
