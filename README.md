@@ -80,3 +80,9 @@ takes two matrices as input and returns their product
 ```
  from utnalgo.matrix import strassen
 ```
+
+#### utnalgo/utnsearch
+searching functions to search through an array of numbers
+```
+ from utnalgo.utnsearch import binary_search, binary_search_2d, linear_search, interpolation_search
+```
