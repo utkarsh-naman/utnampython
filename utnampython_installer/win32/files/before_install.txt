@@ -1,0 +1,2 @@
+I built this custom variant of python as my side project.
+Try using it, I would be adding more functions into it but that's for later.
