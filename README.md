@@ -67,3 +67,9 @@ from utnalgo.Graph.traversal import bfs, dfs, dijkstra, a_star, bellman_ford, pr
 from utnalgo.Numbers import is_prime
 ```
 
+#### utnalgo/Sort
+15+ functions take array of numbers as input and return the sorted array
+```
+form utnalgo.Sort.sort_algos import selection_sort(), bubble_sort(), insertion_sort(), tim_sort(), quick_sort(), merge_sort(), counting_sort(), radix_sort(), bucket_sort(), heap_sort(), shell_sort(), cocktail_shaker_sort(), comb_sort(), gnome_sort(), cycle_sort(), pigeonhole_sort()
+```
+
