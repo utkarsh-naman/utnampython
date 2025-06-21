@@ -59,5 +59,11 @@ write_out()
 ### utnalgo
 #### utnalgo/Graph
 ```
-from utnalgo.Graph.traversal import bfs, dfs, dijkstra, a_star, bellman_ford
+from utnalgo.Graph.traversal import bfs, dfs, dijkstra, a_star, bellman_ford, prims, kruskal
 ```
+#### utnalgo/Numbers
+```
+# sadly, due to commit issues I lost the 10+ functions like is_ramanujan, is_palindrome which where added to the utnalgo.Numbers
+from utnalgo.Numbers import is_prime
+```
+
