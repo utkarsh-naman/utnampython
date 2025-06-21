@@ -24,6 +24,14 @@ PCbuild\build.bat -p x64 -c Release
 PCbuild\build.bat -p win32 -c Release
 ```
 
+## enable pip
+```
+utnampython -m ensurepip
+```
+## install python packages
+```
+utnampython -m pip install package_name
+```
 
 ## Built-In Functions
 ### 1. tte(string_var)
